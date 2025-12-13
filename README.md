@@ -29,10 +29,10 @@
   <a href="https://t.me/glue_coding"><img src="https://img.shields.io/badge/chat-telegram-blue?style=for-the-badge&logo=telegram" alt="交流群"></a>
 </p>
 
-[📚 相关文档](#-相关文档) •
-[🚀 入门指南](#-入门指南) •
-[⚙️ 完整设置流程](#️-完整设置流程) •
-[☎️ 联系方式](#-联系方式)
+[📚 相关文档](#-相关文档)
+[🚀 入门指南](#-入门指南)
+[⚙️ 完整设置流程](#️-完整设置流程)
+[📞 联系方式](#-联系方式)
 [✨ 赞助地址](#-赞助地址)
 [🤝 参与贡献](#-参与贡献)
 
@@ -504,11 +504,13 @@ gantt
 
 ---
 
-## ☎️ 联系方式
+## 📞 联系方式
 
 [推特](https://x.com/123olp)
 [telegram](https://t.me/desci0)
 邮箱（不一定能及时看到）：tukuai.ai@gmail.com
+
+---
 
 ## ✨ 赞助地址
 
