@@ -100,7 +100,3 @@ logs/
 *.bak
 *.tmp
 backups/gz/
-libs/common/utils/my-nvim/
-
-# Ignore PDFs in XHS utility
-libs/common/utils/XHS-image-to-PDF-conversion/*.pdf
