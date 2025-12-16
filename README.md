@@ -12,7 +12,7 @@
 
 # Vibe Coding 指南
 
-**一个旨在通过与 AI 结对编程，将概念转化为现实的综合工作流程**
+**一个通过与 AI 结对编程，将想法变为现实的终极工作站**
 
 ---
 
@@ -44,9 +44,9 @@
 
 ## 🖼️ 概览
 
-**Vibe Coding** 是一个与 AI 结对编程的综合工作流程，旨在帮助开发者高效地将想法付诸实践。本指南详细介绍了从项目构思、技术选型、实施规划到具体开发、调试和扩展的全过程，强调以**规划驱动**和**模块化**为核心，避免因缺乏有效管理而导致项目陷入混乱。
+**Vibe Coding** 是一个与 AI 结对编程的终极工作流程，旨在帮助开发者丝滑地将想法变为现实。本指南详细介绍了从项目构思、技术选型、实施规划到具体开发、调试和扩展的全过程，强调以**规划驱动**和**模块化**为核心，避免让 AI 失控导致项目混乱。
 
-> **核心理念**: *规划是项目成功的基石。* 审慎地引导 AI 进行规划，以确保代码库的可维护性和可管理性。
+> **核心理念**: *规划就是一切。* 谨慎让 AI 自主规划，否则你的代码库会变成一团无法管理的乱麻。
 
 **注意**：以下经验分享并非普遍适用，请在具体实践中结合场景，辩证采纳。
 
@@ -71,11 +71,11 @@
     *   使用**进化后的** `α-提示词 (v2)` 生成所有需要的目标提示词和技能。
 
 4.  **循环与飞跃 (Recursive Loop)**:
-    *   将新生成的、更强大的产物（甚至包括新版本的 `Ω-提示词`）反馈给系统，再次用于优化 `α-提示词`，从而启动下一轮进化。
+    *   将新生成的、更强大的产物（甚至包括新版本的 `Ω-提示词`）反馈给系统，再次用于优化 `α-提示词`，从而启动持续进化。
 
 #### 3. 终极目标：
 
-通过此持续的**递归优化循环**，系统在每次迭代中实现**自我超越**，无限逼近预设的**理想状态**。
+通过此持续的**递归优化循环**，系统在每次迭代中实现**自我超越**，无限逼近预设的**预期状态**。
 
 ## 🧭 原则 (Principles)
 
@@ -118,7 +118,8 @@
 ### 集成开发环境 (IDE) & 终端
 
 *   [**Visual Studio Code**](https://code.visualstudio.com/): 一款功能强大的集成开发环境，适合代码阅读与手动修改。其 `Local History` 插件对项目版本管理尤为便捷。
-*   [**Cursor**](https://cursor.com/): 深度集成 AI 功能的 IDE，在开发者社区中已获得广泛认可。
+*   **虚拟环境 (.venv)**: 强烈推荐使用，可实现项目环境的一键配置与隔离，特别适用于 Python 开发。
+*   [**Cursor**](https://cursor.com/): 已经占领用户心智高地，人尽皆知。
 *   [**Warp**](https://www.warp.dev/): 集成 AI 功能的现代化终端，能有效提升命令行操作和错误排查的效率。
 *   [**Neovim (nvim)**](https://github.com/neovim/neovim): 一款高性能的现代化 Vim 编辑器，拥有丰富的插件生态，是键盘流开发者的首选。
 *   [**LazyVim**](https://github.com/LazyVim/LazyVim): 基于 Neovim 的配置框架，预置了 LSP、代码补全、调试等全套功能，实现了开箱即用与深度定制的平衡。
@@ -128,11 +129,11 @@
 *   [**Claude Opus 4.5**](https://claude.ai/new): 性能强大的 AI 模型，通过 Claude Code 等平台提供服务，并支持 CLI 和 IDE 插件。
 *   [**gpt-5.1-codex.1-codex (xhigh)**](https://chatgpt.com/codex/): 适用于处理大型项目和复杂逻辑的 AI 模型，可通过 Codex CLI 等平台使用。
 *   [**Droid**](https://factory.ai/news/terminal-bench): 提供对 Claude Opus 4.5 等多种模型的 CLI 访问。
-*   [**Kiro**](https://kiro.dev/): 提供免费的 Claude Opus 4.5 模型访问，并提供客户端及 CLI 工具。
+*   [**Kiro**](https://kiro.dev/): 目前提供免费的 Claude Opus 4.5 模型访问，并提供客户端及 CLI 工具。
 *   [**Gemini CLI**](https://geminicli.com/): 提供对 Gemini 模型的免费访问，适合执行脚本、整理文档和探索思路。
-*   [**antigravity**](https://antigravity.google/): Google 提供的免费 AI 服务，支持使用 Claude Opus 4.5 和 Gemini 3.0 Pro。
+*   [**antigravity**](https://antigravity.google/): 目前由 Google 提供的免费 AI 服务，支持使用 Claude Opus 4.5 和 Gemini 3.0 Pro。
 *   [**AI Studio**](https://aistudio.google.com/prompts/new_chat): Google 提供的免费服务，支持使用 Gemini 3.0 Pro 和 Nano Banana。
-*   [**Gemini Enterprise**](https://cloud.google.com/gemini-enterprise): 面向企业用户的 Google AI 服务。
+*   [**Gemini Enterprise**](https://cloud.google.com/gemini-enterprise): 面向企业用户的 Google AI 服务，目前可以免费使用。
 *   [**GitHub Copilot**](https://github.com/copilot): 由 GitHub 和 OpenAI 联合开发的 AI 代码补全工具。
 *   [**Kimi K2**](https://www.kimi.com/): 一款国产 AI 模型，适用于多种常规任务。
 *   [**GLM**](https://bigmodel.cn/): 由智谱 AI 开发的国产大语言模型。
@@ -140,7 +141,6 @@
 
 ### 开发与辅助工具
 
-*   **虚拟环境 (.venv)**: 强烈推荐使用，可实现项目环境的一键配置与隔离，特别适用于 Python 开发。
 *   [**Augment**](https://app.augmentcode.com/): 提供强大的上下文引擎和提示词优化功能。
 *   [**Windsurf**](https://windsurf.com/): 为新用户提供免费额度的 AI 开发工具。
 *   [**Ollama**](https://ollama.com/): 本地大模型管理工具，可通过命令行方便地拉取和运行开源模型。
@@ -203,45 +203,98 @@
 
 ### 项目目录结构概览
 
-`vibe-coding-cn` 项目的核心是围绕知识管理、AI 提示词的组织与自动化而构建。以下是其简化的目录结构说明：
+本项目 `vibe-coding-cn` 的核心结构主要围绕知识管理、AI 提示词的组织与自动化展开。以下是经过整理和简化的目录树及各部分说明：
 
 ```
 .
-├── backups/                     # 项目备份脚本。
-├── documents/                   # 各类说明文档、经验总结和配置详情。
-├── libs/                        # 通用库代码，包含内部模块和外部工具。
-│   ├── common/                  # 通用功能模块。
-│   ├── database/                # 数据库相关模块。
-│   └── external/                # 外部集成工具，如 prompts-library。
-├── prompts/                     # 核心资产：集中管理的各类型 AI 提示词。
-│   ├── coding_prompts/          # 编程与代码生成专用提示词。
-│   ├── system_prompts/          # AI 系统级行为与框架提示词。
-│   └── user_prompts/            # 用户自定义提示词。
-├── skills/                      # 模块化技能库，提供特定领域的工具和知识。
+├── CODE_OF_CONDUCT.md           # 社区行为准则，规范贡献者行为。
+├── CONTRIBUTING.md              # 贡献指南，说明如何为本项目做出贡献。
+├── GEMINI.md                    # AI 助手的上下文文档，包含项目概述、技术栈和文件结构。
+├── LICENSE                      # 开源许可证文件。
+├── Makefile                     # 项目自动化脚本，用于代码检查、构建等。
+├── README.md                    # 项目主文档，包含项目概览、使用指南、资源链接等。
+├── .gitignore                   # Git 忽略文件。
+├── AGENTS.md                    # AI 代理相关的文档或配置。
+├── CLAUDE.md                    # AI 助手的核心行为准则或配置。
 │
-├── .gitignore                   # Git 忽略文件配置。
-├── AGENTS.md                    # AI Agent 的行为准则与配置。
-├── CLAUDE.md                    # Claude 模型的核心行为准则与配置。
-├── CODE_OF_CONDUCT.md           # 社区行为准则。
-├── CONTRIBUTING.md              # 贡献指南。
-├── GEMINI.md                    # Gemini 模型的上下文与指令。
-├── LICENSE                      # 项目开源许可证。
-├── Makefile                     # 项目自动化任务脚本（如代码检查、备份）。
-└── README.md                    # 项目主文档。
+├── backups/                     # 项目备份脚本。
+│   ├── gz/                      # 备份文件存放目录。
+│   ├── 一键备份.sh                # 一键执行备份的 Shell 脚本。
+│   └── 快速备份.py                # 实际执行逻辑的 Python 脚本。
+│
+├── documents/                   # 存放各类说明文档、经验总结和配置详细说明。
+│   ├── auggie-mcp配置文档.md      # Augment 上下文引擎配置文档。
+│   ├── 代码组织.md                # 代码组织与结构相关文档。
+│   ├── ... (其他文档)
+│
+├── libs/                        # 通用库代码，用于项目内部模块化。
+│   ├── common/                  # 通用功能模块。
+│   │   ├── models/              # 模型定义。
+│   │   │   └── __init__.py
+│   │   └── utils/               # 工具函数。
+│   │       └── backups/         # 内部备份工具。
+│   ├── database/                # 数据库相关模块。
+│   │   └── .gitkeep             # 占位文件，确保目录被 Git 跟踪。
+│   └── external/                # 外部集成模块。
+│       ├── my-nvim/             # 用户的 Neovim 配置。
+│       ├── prompts-library/     # 提示词库管理工具（Excel-Markdown 转换）。
+│       │   ├── main.py          # 提示词库管理工具主入口。
+│       │   ├── scripts/         # 包含 Excel 与 Markdown 互转脚本和配置。
+│       │   ├── prompt_excel/    # 存放 Excel 格式的原始提示词数据。
+│       │   ├── prompt_docs/     # 存放从 Excel 转换而来的 Markdown 提示词文档。
+│       │   └── ... (其他 prompts-library 内部文件)
+│       └── XHS-image-to-PDF-conversion/ # 小红书图片转PDF工具。
+│
+├── prompts/                     # 集中存放所有类型的 AI 提示词。
+│   ├── assistant_prompts/       # 辅助类提示词。
+│   ├── coding_prompts/          # 专门用于编程和代码生成相关的提示词集合。
+│   │   └── ... (具体编程提示词文件)
+│   │
+│   ├── system_prompts/          # AI 系统级提示词，用于设定 AI 行为和框架。
+│   │   └── ... (其他系统提示词)
+│   │
+│   └── user_prompts/            # 用户自定义或常用提示词。
+│       ├── ASCII图生成.md         # ASCII 艺术图生成提示词。
+│       ├── 数据管道.md            # 数据管道处理提示词。
+│       └── ... (其他用户提示词)
+│
+├── skills/                      # 集中存放所有类型的 skills 技能。
+    ├── claude-skills            # 生成 SKILL 的元 SKILL
+    │   ├── SKILL.md
+    │   └── ... (其他)
+    └── ... (与其他 skill)
 ```
 
 ---
 
+## 🖼️ 概览与演示
+
+一句话：Vibe Coding = **规划驱动 + 上下文固定 + AI 结对执行**，让「从想法到可维护代码」变成一条可审计的流水线，而不是一团无法迭代的巨石文件。
+
+**你能得到**
+- 成体系的提示词工具链：`prompts/system_prompts/` 约束 AI 行为边界，`prompts/coding_prompts/` 提供需求澄清、计划、执行的全链路脚本。
+- 闭环交付路径：需求 → 上下文文档 → 实施计划 → 分步实现 → 自测 → 进度记录，全程可复盘、可移交。
+
 ## ⚙️ 架构与工作流程
 
-Vibe Coding 的核心工作流可以概括为：**规划驱动 + 上下文固定 + AI 结对执行**。它旨在将“从想法到可维护代码”的过程转变为一个可审计、可迭代的流水线。
-
-**您将获得**:
-- **成体系的提示词工具链**: 利用 `system_prompts` 约束 AI 行为边界，`coding_prompts` 提供从需求澄清、规划到执行的全链路支持。
-- **闭环交付路径**: 遵循“需求 -> 上下文文档 -> 实施计划 -> 分步实现 -> 测试 -> 进度记录”的流程，确保全程可追溯、可移交。
+核心资产映射：
+```
+prompts/
+  coding_prompts/        # 需求澄清、计划、执行链的核心提示词
+  system_prompts/        # 约束 AI 行为边界的系统级提示词
+  assistant_prompts/     # 辅助/配合型提示
+  user_prompts/          # 可复用的用户侧提示词
+  prompts-library/       # Excel↔Markdown 提示词转换与索引工具
+documents/
+  代码组织.md, 通用项目架构模板.md, 开发经验.md, 系统提示词构建原则.md 等知识库
+backups/
+  一键备份.sh, 快速备份.py  # 本地/远端快照脚本
+```
 
 ```mermaid
 graph TB
+  %% GitHub 兼容简化版（仅使用基础语法）
+
   subgraph ext_layer[外部系统与数据源层]
     ext_contrib[社区贡献者]
     ext_sheet[Google 表格 / 外部表格]
@@ -306,14 +359,14 @@ graph TB
 <details>
 <summary>📈 性能基准 (可选)</summary>
 
-本仓库主要关注流程与提示词质量，而非代码性能。建议通过以下可观测指标进行追踪（当前依赖人工记录）：
+本仓库定位为「流程与提示词」而非性能型代码库，建议跟踪下列可观测指标（当前主要依赖人工记录，可在 `progress.md` 中打分/留痕）：
 
-| 指标 | 含义 | 建议记录方式 |
+| 指标 | 含义 | 当前状态/建议 |
 |:---|:---|:---|
-| 提示命中率 | 一次生成即满足验收标准的比例。 | 在任务完成后于 `progress.md` 中记录 0/1。 |
-| 周转时间 | 从需求提出到首个可运行版本所需的时间。 | 通过录屏或 CLI 定时器进行统计。 |
-| 变更可追溯性 | 是否同步更新了上下文、进度及备份。 | 通过手动更新或在备份脚本中集成版本标签实现。 |
-| 示例覆盖率 | 是否为每个模块提供了最小可运行示例或测试用例。 | 建议每个示例项目都包含独立的 README 和测试。 |
+| 提示命中率 | 一次生成即满足验收的比例 | 待记录；每个任务完成后在 progress.md 记 0/1 |
+| 周转时间 | 需求 → 首个可运行版本所需时间 | 录屏时标注时间戳，或用 CLI 定时器统计 |
+| 变更可复盘度 | 是否同步更新上下文/进度/备份 | 通过手工更新；可在 backups 脚本中加入 git tag/快照 |
+| 例程覆盖 | 是否有最小可运行示例/测试 | 建议每个示例项目保留 README+测试用例 |
 
 </details>
 
@@ -338,14 +391,16 @@ gantt
 
 ---
 
-## 🚀 入门指南
-*本节内容源自原作者，并根据当前推荐模型进行了更新。*
+## 🚀 入门指南（这里是原作者的，不是我写的，我更新了一下我认为最好的模型）
+要开始 Vibe Coding，你只需要以下两种工具之一：
+- **Claude Opus 4.5**，在 Claude Code 中使用
+- **gpt-5.1-codex.1-codex (xhigh)**，在 Codex CLI 中使用
 
-要开始使用 Vibe Coding，您需要以下任一工具：
-- **Claude 3 Opus** (在 Claude Code 等平台使用)
-- **GPT-4/GPT-5 系列模型** (在 Codex CLI 等平台使用)
+本指南同时适用于 CLI 终端版本和 VSCode 扩展版本（Codex 和 Claude Code 都有扩展，且界面更新）。
 
-本指南适用于 CLI 终端版本和 VSCode 扩展版本。
+*(注：本指南早期版本使用的是 **Grok 3**，后来切换到 **Gemini 2.5 Pro**，现在我们使用的是 **Claude 4.5**（或 **gpt-5.1-codex.1-codex (xhigh)**）)*
+
+*(注2：如果你想使用 Cursor，请查看本指南的 [1.1 版本](https://github.com/EnzeD/vibe-coding/tree/1.1.1)，但我们认为它目前不如 Codex CLI 或 Claude Code 强大)*
 
 ---
 
@@ -353,122 +408,151 @@ gantt
 <summary><strong>⚙️ 完整设置流程</strong></summary>
 
 <details>
-<summary><strong>1. 创建项目设计文档</strong></summary>
+<summary><strong>1. 游戏设计文档（Game Design Document）</strong></summary>
 
--   将您的项目创意提交给 AI，并要求其生成一份简洁的 Markdown 格式**设计文档**（例如 `product-requirement-document.md`）。
--   审查并完善该文档，确保其与您的愿景一致。初期版本可以简略，其核心目标是为 AI 提供关于项目结构和意图的上下文。
-
+- 把你的游戏创意交给 **gpt-5.1-codex** 或 **Claude Opus 4.5**，让它生成一份简洁的 **游戏设计文档**，格式为 Markdown，文件名为 `game-design-document.md`。
+- 自己审阅并完善，确保与你的愿景一致。初期可以很简陋，目标是给 AI 提供游戏结构和意图的上下文。不要过度设计，后续会迭代。
 </details>
 
 <details>
-<summary><strong>2. 确定技术栈并配置 AI 行为准则</strong></summary>
+<summary><strong>2. 技术栈与 <code>CLAUDE.md</code> / <code>Agents.md</code></strong></summary>
 
--   让 AI 为您的项目推荐**最简单且最健壮**的技术栈，并保存为 `tech-stack.md`。
--   在 AI 交互工具（如 Claude Code 或 Codex CLI）中，使用 `/init` 命令初始化 AI 的行为准则，使其读取您已创建的 `.md` 文件。
--   **关键步骤**: 审查并调整生成的规则，确保其强调**模块化**并禁止生成**单体巨文件**。部分核心规则必须设为始终应用（"Always"），以强制 AI 在编码前阅读关键上下文文档。
-
+- 让 **gpt-5.1-codex** 或 **Claude Opus 4.5** 为你的游戏推荐最合适的技术栈（例如：多人3D游戏用 ThreeJS + WebSocket），保存为 `tech-stack.md`。
+  - 要求它提出 **最简单但最健壮** 的技术栈。
+- 在终端中打开 **Claude Code** 或 **Codex CLI**，使用 `/init` 命令，它会读取你已创建的两个 .md 文件，生成一套规则来正确引导大模型。
+- **关键：一定要审查生成的规则。** 确保规则强调 **模块化**（多文件）和禁止 **单体巨文件**（monolith）。可能需要手动修改或补充规则。
+  - **极其重要：** 某些规则必须设为 **"Always"**（始终应用），确保 AI 在生成任何代码前都强制阅读。例如添加以下规则并标记为 "Always"：
+    > ```
+    > # 重要提示：
+    > # 写任何代码前必须完整阅读 memory-bank/@architecture.md（包含完整数据库结构）
+    > # 写任何代码前必须完整阅读 memory-bank/@game-design-document.md
+    > # 每完成一个重大功能或里程碑后，必须更新 memory-bank/@architecture.md
+    > ```
+  - 其他（非 Always）规则要引导 AI 遵循你技术栈的最佳实践（如网络、状态管理等）。
+  - *如果想要代码最干净、项目最优化，这一整套规则设置是强制性的。*
 </details>
 
 <details>
-<summary><strong>3. 制定实施计划</strong></summary>
+<summary><strong>3. 实施计划（Implementation Plan）</strong></summary>
 
--   将设计文档和技术栈文档提供给 AI。
--   要求 AI 生成一份详细的 Markdown 格式**实施计划**，其中包含一系列给开发者的分步指令。
-    -   每一步都应小而具体，并包含验证其正确性的测试方法。
-    -   计划中只应包含清晰的指令，而非代码。
-    -   初期聚焦于**核心功能**的实现。
-
+- 将以下内容提供给 **gpt-5.1-codex** 或 **Claude Opus 4.5**：
+  - 游戏设计文档（`game-design-document.md`）
+  - 技术栈推荐（`tech-stack.md`）
+- 让它生成一份详细的 **实施计划**（Markdown 格式），包含一系列给 AI 开发者的分步指令。
+  - 每一步要小而具体。
+  - 每一步都必须包含验证正确性的测试。
+  - 严禁包含代码——只写清晰、具体的指令。
+  - 先聚焦于 **基础游戏**，完整功能后面再加。
 </details>
 
 <details>
-<summary><strong>4. 构建记忆库 (Memory Bank)</strong></summary>
+<summary><strong>4. 记忆库（Memory Bank）</strong></summary>
 
--   在项目根目录下创建 `memory-bank` 子文件夹。
--   将以下文件存入该文件夹：
-    -   `product-requirement-document.md`
-    -   `tech-stack.md`
-    -   `implementation-plan.md`
-    -   `progress.md` (空文件，用于记录开发进度)
-    -   `architecture.md` (空文件，用于记录系统架构)
-
-</details>
-
-</details>
-
-<details>
-<summary><strong>💻 Vibe Coding 开发流程</strong></summary>
-
-现在，我们开始核心开发流程。
-
-<details>
-<summary><strong>1. 澄清与确认</strong></summary>
-
--   启动 AI 交互工具。
--   **提问**: "请阅读 `/memory-bank` 文件夹中的所有文档。`implementation-plan.md` 的内容是否完全清晰？您有哪些问题需要我澄清，以确保计划对您而言是 100% 明确的？"
--   在回答完 AI 的所有问题后，让其根据您的回答更新 `implementation-plan.md`。
-
-</details>
-
-<details>
-<summary><strong>2. 执行第一步</strong></summary>
-
--   **提问**: "请阅读 `/memory-bank` 中的所有文档，并执行实施计划的第 1 步。测试将由我负责。在测试通过之前，请不要开始第 2 步。验证通过后，请在 `progress.md` 中记录已完成的工作，并在 `architecture.md` 中更新架构信息。"
--   建议使用 "Ask" 或 "Plan" 模式，在 AI 执行前确认其计划。
-
-</details>
-
-<details>
-<summary><strong>3. 迭代工作流</strong></summary>
-
--   完成第 1 步后，提交代码变更到 Git。
--   开始新的会话，并提问："请阅读 memory-bank 中的所有文件，并参考 `progress.md` 了解当前进度，然后继续实施计划的第 2 步。"
--   重复此流程，直至完成整个实施计划。
-
+- 新建项目文件夹，并在 VSCode 中打开。
+- 在项目根目录下创建子文件夹 `memory-bank`。
+- 将以下文件放入 `memory-bank`：
+  - `game-design-document.md`
+  - `tech-stack.md`
+  - `implementation-plan.md`
+  - `progress.md`（新建一个空文件，用于记录已完成步骤）
+  - `architecture.md`（新建一个空文件，用于记录每个文件的作用）
 </details>
 
 </details>
 
 <details>
-<summary><strong>✨ 增补功能</strong></summary>
+<summary><strong>🎮 Vibe Coding 开发基础游戏</strong></summary>
 
-在完成核心功能后，您可以开始进行实验和功能扩展。
--   对于每个主要的新功能，创建一个独立的 `feature-implementation.md`，其中包含简短的步骤和测试方法。
--   继续采用增量式的方式实现和测试。
+现在进入最爽的阶段！
+
+<details>
+<summary><strong>确保一切清晰</strong></summary>
+
+- 在 VSCode 扩展中打开 **Codex** 或 **Claude Code**，或者在项目终端启动 Claude Code / Codex CLI。
+- 提示词：阅读 `/memory-bank` 里所有文档，`implementation-plan.md` 是否完全清晰？你有哪些问题需要我澄清，让它对你来说 100% 明确？
+- 它通常会问 9-10 个问题。全部回答完后，让它根据你的回答修改 `implementation-plan.md`，让计划更完善。
+</details>
+
+<details>
+<summary><strong>你的第一个实施提示词</strong></summary>
+
+- 打开 **Codex** 或 **Claude Code**（扩展或终端）。
+- 提示词：阅读 `/memory-bank` 所有文档，然后执行实施计划的第 1 步。我会负责跑测试。在我验证测试通过前，不要开始第 2 步。验证通过后，打开 `progress.md` 记录你做了什么供后续开发者参考，再把新的架构洞察添加到 `architecture.md` 中解释每个文件的作用。
+- **永远** 先用 "Ask" 模式或 "Plan Mode"（Claude Code 中按 `shift+tab`），确认满意后再让 AI 执行该步骤。
+- **极致 Vibe：** 安装 [Superwhisper](https://superwhisper.com)，用语音随便跟 Claude 或 gpt-5.1-codex 聊天，不用打字。
+</details>
+
+<details>
+<summary><strong>工作流</strong></summary>
+
+- 完成第 1 步后：
+  - 把改动提交到 Git（不会用就问 AI）。
+  - 新建聊天（`/new` 或 `/clear`）。
+  - 提示词：阅读 memory-bank 所有文件，阅读 progress.md 了解之前的工作进度，然后继续实施计划第 2 步。在我验证测试前不要开始第 3 步。
+- 重复此流程，直到整个 `implementation-plan.md` 全部完成。
+</details>
 
 </details>
 
 <details>
-<summary><strong>🐞 故障排查</strong></summary>
+<summary><strong>✨ 添加细节功能</strong></summary>
+
+恭喜！你已经做出了基础游戏！可能还很粗糙、缺少功能，但现在可以尽情实验和打磨了。
+- 想要雾效、后期处理、特效、音效？更好的飞机/汽车/城堡？绝美天空？
+- 每增加一个主要功能，就新建一个 `feature-implementation.md`，写短步骤+测试。
+- 继续增量式实现和测试。
+
+</details>
+
+<details>
+<summary><strong>🐞 修复 Bug 与卡壳情况</strong></summary>
 
 <details>
 <summary><strong>常规修复</strong></summary>
 
--   **回滚**: 如果 AI 的某次操作导致问题，使用版本控制工具（如 `git reset`）或 AI 工具自带的回滚命令（如 `/rewind`）恢复到之前的状态。
--   **错误处理**: 将浏览器控制台中的错误信息或问题截图提供给 AI 进行分析。
+- 如果某个提示词失败或搞崩了项目：
+  - Claude Code 用 `/rewind` 回退；用 gpt-5.1-codex 的话多提交 git，需要时 reset。
+- 报错处理：
+  - **JavaScript 错误：** 打开浏览器控制台（F12），复制错误，贴给 AI；视觉问题截图发给它。
+  - **懒人方案：** 安装 [BrowserTools](https://browsertools.agentdesk.ai/installation)，自动复制错误和截图。
+</details>
+
+<details>
+<summary><strong>疑难杂症</strong></summary>
+
+- 实在卡住：
+  - 回退到上一个 git commit（`git reset`），换新提示词重试。
+- 极度卡壳：
+  - 用 [RepoPrompt](https://repoprompt.com/) 或 [uithub](https://uithub.com/) 把整个代码库合成一个文件，然后丢给 **gpt-5.1-codex 或 Claude** 求救。
+</details>
 
 </details>
 
 <details>
-<summary><strong>疑难问题</strong></summary>
+<summary><strong>💡 技巧与窍门</strong></summary>
 
--   **重试**: 如果某个问题难以解决，回退到上一个稳定的版本，并尝试用不同的提示词或方法重新实现。
--   **全局上下文**: 在极端情况下，可使用 `RepoPrompt` 等工具将整个代码库打包为一个文件，并提交给 AI 以获得全局性的解决方案。
+<details>
+<summary><strong>Claude Code & Codex 使用技巧</strong></summary>
 
-</details>
-
+- **终端版 Claude Code / Codex CLI：** 在 VSCode 终端里运行，能直接看 diff、喂上下文，不用离开工作区。
+- **Claude Code 的 `/rewind`：** 迭代跑偏时一键回滚到之前状态。
+- **自定义命令：** 创建像 `/explain $参数` 这样的快捷命令，触发提示词：“深入分析代码，彻底理解 $参数 是怎么工作的。理解完告诉我，我再给你任务。” 让模型先拉满上下文再改代码。
+- **清理上下文：** 经常用 `/clear` 或 `/compact`（保留历史对话）。
+- **省时大法（风险自负）：** 用 `claude --dangerously-skip-permissions` 或 `codex --yolo`，彻底关闭确认弹窗。
 </details>
 
 <details>
-<summary><strong>💡 提示与技巧</strong></summary>
+<summary><strong>其他实用技巧</strong></summary>
 
-<details>
-<summary><strong>AI 工具使用技巧</strong></summary>
-
--   **终端集成**: 在 VSCode 终端中运行 AI CLI 工具，可以直接查看文件差异并提供上下文，无需离开工作区。
--   **自定义命令**: 创建自定义快捷命令，以触发特定提示词，从而让模型在修改代码前充分理解上下文。
--   **上下文管理**: 适时使用 `/clear` 或 `/compact` 等命令清理或压缩上下文。
--   **高阶指令**: 通过加入 "请一步一步思考" 或 "ultrathink" 等关键词，引导 AI 进行更深度的思考。
-
+- **小修改：** 用 gpt-5.1-codex (medium)
+- **写顶级营销文案：** 用 Opus 4.1
+- **生成优秀 2D 精灵图：** 用 ChatGPT + Nano Banana
+- **生成音乐：** 用 Suno
+- **生成音效：** 用 ElevenLabs
+- **生成视频：** 用 Sora 2
+- **提升提示词效果：**
+  - 加一句：“慢慢想，不着急，重要的是严格按我说的做，执行完美。如果我表达不够精确请提问。”
+  - 在 Claude Code 中触发深度思考的关键词强度：`think` < `think hard` < `think harder` < `ultrathink`。
 </details>
 
 </details>
@@ -476,14 +560,17 @@ gantt
 <details>
 <summary><strong>❓ 常见问题解答 (FAQ)</strong></summary>
 
--   **Q: 此流程是否适用于非游戏应用开发？**
-    -   **A:** 是的，基本流程完全适用。只需将“游戏设计文档”替换为“产品需求文档 (PRD)”即可。
+- **Q: 我在做应用不是游戏，这个流程一样吗？**
+  - **A:** 基本完全一样！把 GDD 换成 PRD（产品需求文档）即可。你也可以先用 v0、Lovable、Bolt.new 快速原型，再把代码搬到 GitHub，然后克隆到本地用本指南继续开发。
 
--   **Q: 为何推荐使用原生 CLI 工具而非 Cursor 等集成环境？**
-    -   **A:** 这主要取决于个人偏好。我们认为原生 CLI 工具能更好地发挥底层模型的全部实力，并且具有更强的灵活性和可定制性，适用于远程服务器等多种场景。
+- **Q: 你那个空战游戏的飞机模型太牛了，但我一个提示词做不出来！**
+  - **A:** 那不是一个提示词，是 ~30 个提示词 + 专门的 `plane-implementation.md` 文件引导的。用精准指令如“在机翼上为副翼切出空间”，而不是“做一个飞机”这种模糊指令。
 
--   **Q: 我不了解如何搭建服务器，该怎么办？**
-    -   **A:** 请咨询您的 AI 助手。
+- **Q: 为什么现在 Claude Code 或 Codex CLI 比 Cursor 更强？**
+  - **A:** 完全看个人喜好。我们强调的是：Claude Code 能更好发挥 Claude Opus 4.5 的实力，Codex CLI 能更好发挥 gpt-5.1-codex 的实力，而 Cursor 对这两者的利用都不如原生终端版。终端版还能在任意 IDE、使用 SSH 远程服务器等场景工作，自定义命令、子代理、钩子等功能也能长期大幅提升开发质量和速度。最后，即使你只是低配 Claude 或 ChatGPT 订阅，也完全够用。
+
+- **Q: 我不会搭建多人游戏的服务器怎么办？**
+  - **A:** 问你的 AI。
 
 </details>
 
