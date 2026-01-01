@@ -3,10 +3,6 @@
   项目头部区域 (HEADER)
 -------------------------------------------------------------------------------
 -->
-<p align="center">
-  <!-- 建议尺寸: 1280x640px。可以使用 Canva, Figma 或 https://banners.beyondco.de/ 等工具制作 -->
-  <img src="https://github.com/tukuaiai.png" alt="Vibe Coding 指南" width="80px">
-</p>
 
 <div align="center">
 
@@ -21,12 +17,12 @@
 -->
 <!-- 项目状态徽章 -->
 <p>
-  <a href="https://github.com/tukuaiai/vibe-coding-cn/actions"><img src="https://img.shields.io/github/actions/workflow/status/tukuaiai/vibe-coding-cn/main.yml?label=%E6%9E%84%E5%BB%BA%E7%8A%B6%E6%80%81&style=for-the-badge" alt="构建状态"></a>
-  <a href="https://github.com/tukuaiai/vibe-coding-cn/releases"><img src="https://img.shields.io/github/v/release/tukuaiai/vibe-coding-cn?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=for-the-badge" alt="最新版本"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/tukuaiai/vibe-coding-cn?label=%E8%AE%B8%E5%8F%AF%E8%AF%81&style=for-the-badge" alt="许可证"></a>
-  <a href="https://github.com/tukuaiai/vibe-coding-cn"><img src="https://img.shields.io/github/languages/top/tukuaiai/vibe-coding-cn?label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&style=for-the-badge" alt="主要语言"></a>
-  <a href="https://github.com/tukuaiai/vibe-coding-cn"><img src="https://img.shields.io/github/languages/code-size/tukuaiai/vibe-coding-cn?label=%E4%BB%A3%E7%A0%81%E9%87%8F&style=for-the-badge" alt="代码量"></a>
-  <a href="https://github.com/tukuaiai/vibe-coding-cn/graphs/contributors"><img src="https://img.shields.io/github/contributors/tukuaiai/vibe-coding-cn?label=%E8%B4%A1%E7%8C%AE%E8%80%85&style=for-the-badge" alt="贡献者"></a>
+  <a href="https://github.com/S842155114/vibe-coding-cn/actions"><img src="https://img.shields.io/github/actions/workflow/status/S842155114/vibe-coding-cn/main.yml?label=%E6%9E%84%E5%BB%BA%E7%8A%B6%E6%80%81&style=for-the-badge" alt="构建状态"></a>
+  <a href="https://github.com/S842155114/vibe-coding-cn/releases"><img src="https://img.shields.io/github/v/release/S842155114/vibe-coding-cn?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=for-the-badge" alt="最新版本"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/S842155114/vibe-coding-cn?label=%E8%AE%B8%E5%8F%AF%E8%AF%81&style=for-the-badge" alt="许可证"></a>
+  <a href="https://github.com/S842155114/vibe-coding-cn"><img src="https://img.shields.io/github/languages/top/S842155114/vibe-coding-cn?label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&style=for-the-badge" alt="主要语言"></a>
+  <a href="https://github.com/S842155114/vibe-coding-cn"><img src="https://img.shields.io/github/languages/code-size/S842155114/vibe-coding-cn?label=%E4%BB%A3%E7%A0%81%E9%87%8F&style=for-the-badge" alt="代码量"></a>
+  <a href="https://github.com/S842155114/vibe-coding-cn/graphs/contributors"><img src="https://img.shields.io/github/contributors/S842155114/vibe-coding-cn?label=%E8%B4%A1%E7%8C%AE%E8%80%85&style=for-the-badge" alt="贡献者"></a>
   <a href="https://t.me/glue_coding"><img src="https://img.shields.io/badge/聊天-Telegram-blue?style=for-the-badge&logo=telegram" alt="交流群"></a>
 </p>
 
@@ -77,7 +73,7 @@
 [✨ 支持项目](#-支持项目)
 [🤝 参与贡献](#-参与贡献)
 
-本仓库的 AI 解读链接：[zread.ai/tukuaiai/vibe-coding-cn](https://zread.ai/tukuaiai/vibe-coding-cn/1-overview)
+本仓库的 AI 解读链接：[zread.ai/S842155114/vibe-coding-cn](https://zread.ai/S842155114/vibe-coding-cn/1-overview)
 
 </div>
 
@@ -611,39 +607,12 @@ gantt
 
 </details>
 
----
-
-## 📞 联系方式
-
--   **GitHub**: [tukuaiai](https://github.com/tukuaiai)
--   **Twitter / X**: [123olp](https://x.com/123olp)
--   **Telegram**: [@desci0](https://t.me/desci0)
--   **Telegram 交流群**: [glue_coding](https://t.me/glue_coding)
--   **Telegram 频道**: [tradecat_ai_channel](https://t.me/tradecat_ai_channel)
--   **邮箱**: tukuai.ai@gmail.com (回复可能不及时)
-
----
-
-## ✨ 支持项目
-
-救救孩子，感谢了，好人一生平安🙏🙏🙏
-
--   **Tron (TRC20)**: `TQtBXCSTwLFHjBqTS4rNUp7ufiGx51BRey`
--   **Solana**: `HjYhozVf9AQmfv7yv79xSNs6uaEU5oUk2USasYQfUYau`
--   **Ethereum (ERC20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
--   **BNB Smart Chain (BEP20)**: `0xa396923a71ee7D9480b346a17dDeEb2c0C287BBC`
--   **Bitcoin**: `bc1plslluj3zq3snpnnczplu7ywf37h89dyudqua04pz4txwh8z5z5vsre7nlm`
--   **Sui**: `0xb720c98a48c77f2d49d375932b2867e793029e6337f1562522640e4f84203d2e`
--   **币安 UID**: `572155580`
-
----
-
 ### ✨ 贡献者
 
 感谢所有为本项目做出贡献的开发者！
 
-<a href="https://github.com/tukuaiai/vibe-coding-cn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tukuaiai/vibe-coding-cn" />
+<a href="https://github.com/S842155114/vibe-coding-cn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=S842155114/vibe-coding-cn" />
   <img src="https://contrib.rocks/image?repo=EnzeD/vibe-coding" />
 </a>
 
@@ -660,7 +629,7 @@ gantt
 
 ## 🤝 参与贡献
 
-我们热烈欢迎各种形式的贡献。如果您对本项目有任何想法或建议，请随时开启一个 [Issue](https://github.com/tukuaiai/vibe-coding-cn/issues) 或提交一个 [Pull Request](https://github.com/tukuaiai/vibe-coding-cn/pulls)。
+我们热烈欢迎各种形式的贡献。如果您对本项目有任何想法或建议，请随时开启一个 [Issue](https://github.com/S842155114/vibe-coding-cn/issues) 或提交一个 [Pull Request](https://github.com/S842155114/vibe-coding-cn/pulls)。
 
 在您开始之前，请花时间阅读我们的 [**贡献指南 (CONTRIBUTING.md)**](CONTRIBUTING.md) 和 [**行为准则 (CODE_OF_CONDUCT.md)**](CODE_OF_CONDUCT.md)。
 
@@ -678,17 +647,15 @@ gantt
 
 ## Star History
 
-<a href="https://www.star-history.com/#tukuaiai/vibe-coding-cn&type=date&legend=top-left">
+<a href="https://www.star-history.com/#S842155114/vibe-coding-cn&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tukuaiai/vibe-coding-cn&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tukuaiai/vibe-coding-cn&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tukuaiai/vibe-coding-cn&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=S842155114/vibe-coding-cn&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=S842155114/vibe-coding-cn&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=S842155114/vibe-coding-cn&type=date&legend=top-left" />
  </picture>
 </a>
 
 ---
-
-**由 [tukuaiai](https://github.com/tukuaiai), [Nicolas Zullo](https://x.com/NicolasZu), 和 [123olp](https://x.com/123olp) 倾力打造**
 
 [⬆ 返回顶部](#vibe-coding-指南)
 </div>
